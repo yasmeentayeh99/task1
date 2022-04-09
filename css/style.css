@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2% 2%;
+}
+.left-hero-1 {
+    display: flex;
+    padding-right: 1rem;
+    width: 70%;
+    margin-left: 8rem;
+    margin-top: 3rem;
+
+}
+.left-hero-1 > h2{
+    color: #ec563d;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: Alatsi;
+}
+.right-hero-1 {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    padding: 2rem 2rem 3rem;
+}
+.right-hero-1 > p {
+    padding: 1rem 1rem;
+    font-size: 1.25rem;
+    color: #666666;
+
+}
+.p1{
+    width: 83%;
+}
+.btn {
+    letter-spacing: 3px;
+    font-size: 1.25rem;
+    border-style: none;
+    margin: 20px auto 0 0;
+    padding: 10px 52px 10px 50px;
+    background-color: #ec563d;
+    color: white;
+}
+.freepik {
+    color: #ec563d;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+.hero-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+}
+.left-hero-2 {
+  padding: 0% 1% 2% 13%;
+}
+.left-hero-2 > img {
+    width: 28rem;
+    height: 44rem;
+}
+
+.bg-right-top > img {
+    height: 17rem;
+    width: 17rem;
+}
+.bg-right-bottom > img {
+    width: 34rem;
+    height: 26rem;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    color: white;
+    height: 15rem;
+}
+footer > p {
+    /*justify-content: center;*/
+    /*justify-items: center;*/
+    text-align: center;
+    margin-top: 4%;
+    /*width: 80%;*/
+}
+footer > span {
+    text-align: center;
+    margin-top: 8%;
+}
+.navs {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link {
+    margin-top: 2%;
+}
+.gg-logo {
+    width: 83px;
+    height: 78px;
+    /*margin: 2% auto 2% 4% ;*/
+}
+.menu {
+    /*margin: -32px 0 22px auto;*/
+    /*display: flex;*/
+    /*justify-content: end;*/
+    margin-left: 20%;
+    margin-top: 4%;
+}
+/*.menu > a {*/
+/*    padding-top: 4px;*/
+/*    padding-bottom: 4px;*/
+/*}*/
+.nav-icon {
+    width: 2rem;
+    height: 2rem;
+}
+.sidebar{
+    background: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    opacity: 0.9;
+    color: white;
+
+}
+body.active .sidebar{
+    left: -225px;
+}
+/*body.active main {*/
+/*    background-color: black;*/
+/*}*/
+
+/*body.active .menu{*/
+/*    margin-left: 0;*/
+/*    width: 100%;*/
+/*}*/
